@@ -6,8 +6,6 @@
     pull: "yes"
     recreate: "yes"
     privileged: "yes"
-    env:
-      ALGORAND_API_BACKEND_SETTINGS: /app/settings.json
     state: "started"
     restart_policy: "unless-stopped"
     volumes:
