@@ -11,8 +11,13 @@ Requirements
 Role Variables
 --------------
 
-- BUILD: 'v1.0.0'
-- CADVISOR_PORT: "8090"
+- BUILD: 'latest'
+- CADVISOR_PORT: 9080
+- CONTAINER_NAME: "cadvisor"
+- DOCKER_CPU_PERIOD: 0
+- DOCKER_CPU_QUOTA: 0
+- DOCKER_MEMORY: 0
+- CONTAINER_STATE: 'started'
 
 Dependencies
 ------------
