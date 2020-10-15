@@ -1,2 +1,3 @@
 ---
-# vars file for asbrl-cadvisor
+BUILD: 'latest'
+CADVISOR_PORT: 9080
